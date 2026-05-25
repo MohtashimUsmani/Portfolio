@@ -8,7 +8,7 @@ import './Contact.css';
 const SOCIALS = [
   { icon:<FaGithub />,   label:'GitHub',   href:'https://github.com/MohtashimUsmani', handle:'github.com/mohtashim'},
   { icon:<FaLinkedin />, label:'LinkedIn', href:'https://www.linkedin.com/in/mohtashim-usmani/', handle:'linkedin.com/in/mohtashim' },
-  { icon:<FaEnvelope />, label:'Gmail',    href:'mailto:mohtashimusmani09@gmail.com',  handle:'mohtashim@email.com'},
+  { icon:<FaEnvelope />, label:'Gmail',    href:'mailto:mohtashimusmani09@gmail.com',  handle:'mohtashimusmani09@email.com'},
   { icon:<FaTwitter />,  label:'Twitter',  href:'https://twitter.com', handle:'@mohtashim_dev'},
 ];
 
@@ -63,8 +63,8 @@ const Contact = () => {
                 <h3 className="contact__success-title">please reach out to me directly via gmail!</h3>
                 <p className="contact__success-sub">For the fastest response</p>
                 <button className="contact__success-reset"
-                  /*onClick={() => { setSubmitted(false); setForm({ name:'', email:'', subject:'', message:'' }); }}>*/
-                  { icon:<FaEnvelope />, label:'Gmail',    href:'mailto:mohtashimusmani09@gmail.com'}
+                  onClick={() => { setSubmitted(false); setForm({ name:'', email:'', subject:'', message:'' }); }}>
+                  SEND ANOTHER
                 </button>
               </div>
             ) : (
