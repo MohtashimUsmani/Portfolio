@@ -79,8 +79,8 @@ const Hero = () => {
           </motion.div>
 
           <motion.div className="hero__socials" variants={iV}>
-            <a href="https://github.com"   target="_blank" rel="noreferrer" className="hero__social-link"><FaGithub /></a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hero__social-link"><FaLinkedin /></a>
+            <a href="https://github.com/MohtashimUsmani"   target="_blank" rel="noreferrer" className="hero__social-link"><FaGithub /></a>
+            <a href="https://www.linkedin.com/in/mohtashim-usmani/" target="_blank" rel="noreferrer" className="hero__social-link"><FaLinkedin /></a>
             <div className="hero__social-line" />
           </motion.div>
         </motion.div>
