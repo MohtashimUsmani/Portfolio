@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="muGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#FF4D8D"/>
+      <stop offset="50%"  stop-color="#CC44BB"/>
+      <stop offset="100%" stop-color="#9933FF"/>
+    </linearGradient>
+    <linearGradient id="codeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#FF1744"/>
+      <stop offset="100%" stop-color="#FF4D8D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100" height="100" rx="20" fill="#070005"/>
+
+  <!-- Subtle inner glow -->
+  <rect width="100" height="100" rx="20"
+        fill="none" stroke="rgba(114,1,55,0.6)" stroke-width="1.5"/>
+
+  <!-- </> bracket left: < -->
+  <text x="7" y="58"
+        font-family="'Courier New', monospace"
+        font-size="24" font-weight="900"
+        fill="url(#codeGrad)">&lt;</text>
+
+  <!-- </> bracket middle: / -->
+  <text x="28" y="58"
+        font-family="'Courier New', monospace"
+        font-size="24" font-weight="900"
+        fill="url(#codeGrad)">/</text>
+
+  <!-- </> bracket right: > -->
+  <text x="40" y="58"
+        font-family="'Courier New', monospace"
+        font-size="24" font-weight="900"
+        fill="url(#codeGrad)">&gt;</text>
+
+  <!-- MU -->
+  <text x="62" y="60"
+        font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif"
+        font-size="30" font-weight="900"
+        fill="url(#muGrad)"
+        text-anchor="middle">MU</text>
+
+  <!-- Red dot -->
+  <rect x="85" y="46" width="8" height="8" rx="2" fill="#FF1744"/>
+</svg>

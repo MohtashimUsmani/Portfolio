@@ -1,0 +1,5 @@
+@import './styles/globals.css';
+@import './styles/animations.css';
+
+@media(max-width:768px){:root{--sp-section:80px 0}.container{padding:0 20px}}
+@media(max-width:480px){:root{--sp-section:60px 0}}
