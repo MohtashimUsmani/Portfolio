@@ -6,8 +6,8 @@ import './Footer.css';
 
 const LINKS   = ['about','skills','projects','experience','contact'];
 const SOCIALS = [
-  { icon:<FaGithub />,   href:'https://github.com',   label:'GitHub'   },
-  { icon:<FaLinkedin />, href:'https://linkedin.com', label:'LinkedIn' },
+  { icon:<FaGithub />,   href:'https://github.com/MohtashimUsmani',   label:'GitHub'   },
+  { icon:<FaLinkedin />, href:'https://www.linkedin.com/in/mohtashim-usmani/' },
   { icon:<FaTwitter />,  href:'https://twitter.com',  label:'Twitter'  },
 ];
 
@@ -47,7 +47,7 @@ const Footer = () => (
           ))}
         </div>
         <p className="footer__contact-cta">Want to work together?<br />
-          <a href="mailto:mohtashim@email.com" className="footer__email">mohtashim@email.com</a>
+          <a href="mailto:mohtashimusmani09@gmail.com" className="footer__email">mohtashimusmani09@gmail.com</a>
         </p>
       </div>
     </div>
