@@ -6,10 +6,10 @@ import GlowButton from '../components/GlowButton';
 import './Contact.css';
 
 const SOCIALS = [
-  { icon:<FaGithub />,   label:'GitHub',   href:'https://github.com',         handle:'github.com/mohtashim'   },
-  { icon:<FaLinkedin />, label:'LinkedIn', href:'https://linkedin.com',        handle:'linkedin.com/in/mohtashim' },
-  { icon:<FaEnvelope />, label:'Email',    href:'mailto:mohtashim@email.com',  handle:'mohtashim@email.com'    },
-  { icon:<FaTwitter />,  label:'Twitter',  href:'https://twitter.com',         handle:'@mohtashim_dev'          },
+  { icon:<FaGithub />,   label:'GitHub',   href:'https://github.com/MohtashimUsmani', handle:'github.com/mohtashim'},
+  { icon:<FaLinkedin />, label:'LinkedIn', href:'https://www.linkedin.com/in/mohtashim-usmani/', handle:'linkedin.com/in/mohtashim' },
+  { icon:<FaEnvelope />, label:'Email',    href:'mailto:mohtashimusmani09@gmail.com',  handle:'mohtashim@email.com'},
+  { icon:<FaTwitter />,  label:'Twitter',  href:'https://twitter.com', handle:'@mohtashim_dev'},
 ];
 
 const Contact = () => {
@@ -59,9 +59,9 @@ const Contact = () => {
             viewport={{ once:true }} transition={{ duration:0.65 }}>
             {submitted ? (
               <div className="contact__success">
-                <div className="contact__success-icon">✓</div>
-                <h3 className="contact__success-title">Message Sent!</h3>
-                <p className="contact__success-sub">Thanks for reaching out. I'll get back to you within 24 hours.</p>
+                <div className="contact__success-icon">✖</div>
+                <h3 className="contact__success-title">please reach out to me directly via gmail!</h3>
+                <p className="contact__success-sub">For the fastest response</p>
                 <button className="contact__success-reset"
                   onClick={() => { setSubmitted(false); setForm({ name:'', email:'', subject:'', message:'' }); }}>
                   Send Another
