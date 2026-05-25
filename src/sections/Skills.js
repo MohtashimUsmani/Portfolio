@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Tilt from 'react-parallax-tilt';
-import { FaPython, FaReact, FaDatabase, FaChartBar, FaJs } from 'react-icons/fa';
+import { FaPython, FaReact, FaChartBar, FaJs } from 'react-icons/fa';
 import { SiDjango, SiPandas, SiNumpy, SiScikitlearn, SiPostgresql, SiFastapi, SiTensorflow, SiDocker } from 'react-icons/si';
 import SectionTitle from '../components/SectionTitle';
 import './Skills.css';
