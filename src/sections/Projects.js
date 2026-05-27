@@ -14,14 +14,14 @@ const PROJECTS = [
     desc:'Cinematic full-stack portfolio built with React and Django, featuring interactive data visualizations and smooth animations.',
     tech:['React','Django','Python','Framer Motion','PostgreSQL'],
     github:'https://github.com/MohtashimUsmani/mohtashim-portfolio', demo:'https://www.mohtashimusmani.me', accent:'#E040FB', badge:'Full Stack' },
-  { number:'03', title:'SQL Fraud Detection & Analysis Project',
-    desc:'This project focuses on analyzing financial transaction data using SQL to detect suspicious patterns, fraudulent activities, and anomalies. It is designed as a hands on practice project for improving SQL skills, especially for data analysis and fintech-related problems.',
-    tech:['PostgreSQL','WITH CTE','Recursive CTE','INNER JOIN & ON','Window Functions', 'Filtering & Conditions'],
-    github:'https://github.com/MohtashimUsmani/SQL-Data-Analyst-Project', demo:'https://www.linkedin.com/posts/mohtashim-usmani_opentowork-sql-dataanalytics-ugcPost-7453883417584148480-NE8r/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFS_50BvDQCMqODwWdJa1dYaHINVM8rw7E', accent:'#00BCD4', badge:'Web App' },
-  { number:'04', title:'Customer Management System',
+  { number:'03', title:'Customer Management System',
     desc:'The Customer Management System is a web application built using Python, Django, HTML, CSS, and JavaScript. It provides separate interfaces for admins and customers, each with specific functionalities tailored to their roles.',
     tech:['Python','HTML','CSS','Django','Postgresql','JavaScript'],
-    github:'https://github.com/MohtashimUsmani/Django-CMS-WebApp', demo:'https://example.com', accent:'#FFD600', badge:'Analytics' },
+    github:'https://github.com/MohtashimUsmani/Django-CMS-WebApp', demo:'https://example.com', accent:'#FFD600', badge:'WEB APP' },
+  { number:'04', title:'SQL Fraud Detection & Analysis Project',
+    desc:'This project focuses on analyzing financial transaction data using SQL to detect suspicious patterns, fraudulent activities, and anomalies. It is designed as a hands on practice project for improving SQL skills, especially for data analysis and fintech-related problems.',
+    tech:['PostgreSQL','WITH CTE','Recursive CTE','INNER JOIN & ON','Window Functions', 'Filtering & Conditions'],
+    github:'https://github.com/MohtashimUsmani/SQL-Data-Analyst-Project', demo:'https://www.linkedin.com/posts/mohtashim-usmani_opentowork-sql-dataanalytics-ugcPost-7453883417584148480-NE8r/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFS_50BvDQCMqODwWdJa1dYaHINVM8rw7E', accent:'#00BCD4', badge:'Analytics' },
 ];
 
 const ProjectCard = ({ project, index }) => (
