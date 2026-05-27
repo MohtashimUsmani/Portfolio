@@ -6,22 +6,22 @@ import SectionTitle from '../components/SectionTitle';
 import './Projects.css';
 
 const PROJECTS = [
-  { number:'01', title:'Fraud Detection ML System',
+  { number:'01', title:'FinTech Fraud Detection & AML Pipeline',
     desc:'End-to-end ML pipeline for real-time financial fraud detection using ensemble models. Achieves 97.8% accuracy with sub-100ms inference.',
-    tech:['Python','Scikit-learn','XGBoost','Pandas','FastAPI','PostgreSQL'],
-    github:'https://github.com', demo:'https://example.com', accent:'#FF1744', badge:'Machine Learning' },
+    tech:['Python','Scikit-learn','Imbalanced-Learn','Pandas','Power BI','PostgreSQL'],
+    github:'https://github.com/MohtashimUsmani/FinTech-Fraud-Detection-Pipeline', demo:'https://www.linkedin.com/posts/mohtashim-usmani_datascience-fintech-sql-ugcPost-7455312139025596416-NlNK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFS_50BvDQCMqODwWdJa1dYaHINVM8rw7E', accent:'#FF1744', badge:'Machine Learning' },
   { number:'02', title:'AI Portfolio Website',
     desc:'Cinematic full-stack portfolio built with React and Django, featuring interactive data visualizations and smooth animations.',
     tech:['React','Django','Python','Framer Motion','PostgreSQL'],
-    github:'https://github.com', demo:'https://example.com', accent:'#E040FB', badge:'Full Stack' },
-  { number:'03', title:'Hospital Management System',
-    desc:'Comprehensive web app for managing patient records, appointments, staff scheduling, and billing with real-time notifications.',
-    tech:['Django','React','PostgreSQL','REST API','Bootstrap'],
-    github:'https://github.com', demo:'https://example.com', accent:'#00BCD4', badge:'Web App' },
-  { number:'04', title:'FinTech Analytics Dashboard',
-    desc:'Interactive financial analytics platform with real-time data streaming, predictive modeling, and KPI reporting.',
-    tech:['Python','Pandas','Plotly','Django','React','WebSocket'],
-    github:'https://github.com', demo:'https://example.com', accent:'#FFD600', badge:'Analytics' },
+    github:'https://github.com/MohtashimUsmani/mohtashim-portfolio', demo:'https://www.mohtashimusmani.me', accent:'#E040FB', badge:'Full Stack' },
+  { number:'03', title:'SQL Fraud Detection & Analysis Project',
+    desc:'This project focuses on analyzing financial transaction data using SQL to detect suspicious patterns, fraudulent activities, and anomalies. It is designed as a hands on practice project for improving SQL skills, especially for data analysis and fintech-related problems.',
+    tech:['PostgreSQL','WITH CTE','Recursive CTE','INNER JOIN & ON','Window Functions', 'Filtering & Conditions'],
+    github:'https://github.com/MohtashimUsmani/SQL-Data-Analyst-Project', demo:'https://www.linkedin.com/posts/mohtashim-usmani_opentowork-sql-dataanalytics-ugcPost-7453883417584148480-NE8r/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFS_50BvDQCMqODwWdJa1dYaHINVM8rw7E', accent:'#00BCD4', badge:'Web App' },
+  { number:'04', title:'Customer Management System',
+    desc:'The Customer Management System is a web application built using Python, Django, HTML, CSS, and JavaScript. It provides separate interfaces for admins and customers, each with specific functionalities tailored to their roles.',
+    tech:['Python','HTML','CSS','Django','Postgresql','JavaScript'],
+    github:'https://github.com/MohtashimUsmani/Django-CMS-WebApp', demo:'https://example.com', accent:'#FFD600', badge:'Analytics' },
 ];
 
 const ProjectCard = ({ project, index }) => (
