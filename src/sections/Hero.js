@@ -40,6 +40,7 @@ const Hero = () => {
       <div className="hero__blob hero__blob--1" />
       <div className="hero__blob hero__blob--2" />
       <div className="hero__blob hero__blob--3" />
+      <div className="hero__blob hero__blob--4" />
       <div className="hero__grid" />
       <div className="hero__scanline" />
 
