@@ -103,7 +103,8 @@ const Hero = () => {
           <div className="hero__code-tag hero__code-tag--5"><code>import numpy as np</code></div>
           <div className="hero__code-tag hero__code-tag--6"><code>git commit -m first commit</code></div>
           <div className="hero__code-tag hero__code-tag--7"><code>psql -U postgres</code></div>
-          <div className="hero__code-tag hero__code-tag--8"><code>mysql -u root -p</code></div>   
+          <div className="hero__code-tag hero__code-tag--8"><code>mysql -u root -p</code></div>
+          <div className="hero__code-tag hero__code-tag--9"><code>mysql -u root -p</code></div>   
         </motion.div>
       </div>
 
