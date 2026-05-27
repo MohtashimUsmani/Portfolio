@@ -99,7 +99,7 @@ const Hero = () => {
           <div className="hero__code-tag hero__code-tag--1"><code>import sklearn</code></div>
           <div className="hero__code-tag hero__code-tag--2"><code>npm run build</code></div>
           <div className="hero__code-tag hero__code-tag--3"><code>django runserver</code></div>
-           
+          <div className="hero__code-tag hero__code-tag--4"><code>import pandas as pd</code></div>
         </motion.div>
       </div>
 
