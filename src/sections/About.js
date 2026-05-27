@@ -31,9 +31,9 @@ const About = () => (
           viewport={{ once:true }} transition={{ duration:0.65 }}>
           <div className="about__bio-tag"><FaCode className="about__bio-icon" /><span>Bio</span></div>
           <h3 className="about__bio-heading">Building the Future with<br /><span className="about__bio-highlight">Data &amp; Code</span></h3>
-          <p className="about__bio-text">I'm <strong>Mohtashim Usmani</strong> — a Data Scientist, Full Stack Web Developer, and Python enthusiast with a deep passion for building intelligent systems.</p>
-          <p className="about__bio-text">From training machine learning models to architecting full-stack web applications with Django and React, I bridge the gap between data and user experience.</p>
-          <p className="about__bio-text">I'm always learning, always building — whether it's a fraud detection system, a data analytics dashboard, or an AI-powered portfolio.</p>
+          <p className="about__bio-text">I'm <strong>Mohtashim Usmani</strong> a Data Scientist, Full Stack Web Developer, and Python enthusiast with a deep passion for building intelligent systems.</p>
+          <p className="about__bio-text">From training machine learning models to architecting full stack web applications with Django and React, I bridge the gap between data and user experience.</p>
+          <p className="about__bio-text">I'm always learning, always building whether it's a fraud detection system, a data analytics dashboard, or an AI-powered portfolio.</p>
           <div className="about__highlights">
             {HIGHLIGHTS.map(({ icon, label }, i) => (
               <motion.div key={label} className="about__highlight-item"
