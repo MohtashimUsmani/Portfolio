@@ -7,18 +7,18 @@ import SectionTitle from '../components/SectionTitle';
 import './Skills.css';
 
 const SKILLS = [
-  { icon:<FaPython />,       name:'Python',           level:95, category:'Language',  color:'#3776AB', desc:'Primary language for DS, automation & backends.' },
-  { icon:<SiDjango />,       name:'Django',           level:90, category:'Framework', color:'#44B78B', desc:'REST APIs, auth, admin, ORM — full backend mastery.' },
-  { icon:<FaReact />,        name:'React',            level:85, category:'Frontend',  color:'#61DAFB', desc:'Component-based UIs, hooks, state management.' },
-  { icon:<FaJs />,           name:'JavaScript',       level:82, category:'Language',  color:'#F7DF1E', desc:'ES6+, async/await, DOM manipulation.' },
-  { icon:<SiPostgresql />,   name:'PostgreSQL',       level:85, category:'Database',  color:'#336791', desc:'Complex queries, indexing, schema design.' },
-  { icon:<SiScikitlearn />,  name:'Machine Learning', level:88, category:'AI / ML',   color:'#F89939', desc:'Supervised & unsupervised models.' },
-  { icon:<SiPandas />,       name:'Pandas',           level:92, category:'Data',      color:'#7E57C2', desc:'Data wrangling, transformation, analysis.' },
-  { icon:<SiNumpy />,        name:'NumPy',            level:90, category:'Data',      color:'#4DABF7', desc:'Numerical computing, array operations.' },
-  { icon:<FaChartBar />,     name:'Data Analysis',    level:88, category:'Analytics', color:'#FF4081', desc:'EDA, visualization, statistical insights.' },
-  { icon:<SiFastapi />,      name:'APIs',             level:87, category:'Backend',   color:'#009688', desc:'REST API design, integration, documentation.' },
-  { icon:<SiTensorflow />,   name:'TensorFlow',       level:75, category:'AI / ML',   color:'#FF6F00', desc:'Deep learning models, neural networks.' },
-  { icon:<SiDocker />,       name:'Docker',           level:70, category:'DevOps',    color:'#2496ED', desc:'Containerization, deployment workflows.' },
+  { icon:<FaPython />,       name:'Python',           level:75, category:'Language',  color:'#3776AB', desc:'Primary language for DS, automation & backends.' },
+  { icon:<SiDjango />,       name:'Django',           level:67, category:'Framework', color:'#44B78B', desc:'REST APIs, auth, admin, ORM — full backend mastery.' },
+  { icon:<FaReact />,        name:'React',            level:54, category:'Frontend',  color:'#61DAFB', desc:'Component-based UIs, hooks, state management.' },
+  { icon:<FaJs />,           name:'JavaScript',       level:58, category:'Language',  color:'#F7DF1E', desc:'ES6+, async/await, DOM manipulation.' },
+  { icon:<SiPostgresql />,   name:'PostgreSQL',       level:68, category:'Database',  color:'#336791', desc:'Complex queries, indexing, schema design.' },
+  { icon:<SiScikitlearn />,  name:'Machine Learning', level:45, category:'AI / ML',   color:'#F89939', desc:'Supervised & unsupervised models.' },
+  { icon:<SiPandas />,       name:'Pandas',           level:70, category:'Data',      color:'#7E57C2', desc:'Data wrangling, transformation, analysis.' },
+  { icon:<SiNumpy />,        name:'NumPy',            level:72, category:'Data',      color:'#4DABF7', desc:'Numerical computing, array operations.' },
+  { icon:<FaChartBar />,     name:'Data Analysis',    level:70, category:'Analytics', color:'#FF4081', desc:'EDA, visualization, statistical insights.' },
+  { icon:<SiFastapi />,      name:'APIs',             level:50, category:'Backend',   color:'#009688', desc:'REST API design, integration, documentation.' },
+  { icon:<SiTensorflow />,   name:'TensorFlow',       level:45, category:'AI / ML',   color:'#FF6F00', desc:'Deep learning models, neural networks.' },
+  { icon:<SiDocker />,       name:'Docker',           level:48, category:'DevOps',    color:'#2496ED', desc:'Containerization, deployment workflows.' },
 ];
 
 const SkillCard = ({ skill, index }) => (
