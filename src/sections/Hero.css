@@ -43,6 +43,7 @@
 .hero__code-tag--6{bottom:37%;left:0;animation:blobFloat6 17s ease-in-out infinite}
 .hero__code-tag--7{top:29%;right:0;animation:blobFloat7 19s ease-in-out infinite}
 .hero__code-tag--8{bottom:31%;left:0;animation:blobFloat8 20s ease-in-out infinite}
+.hero__code-tag--9{top:12%;right:0;animation:blobFloat9 22s ease-in-out infinite}
 .hero__scroll{position:absolute;bottom:36px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;z-index:5}
 .hero__scroll-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--tx-muted)}
 .hero__scroll-icon{width:36px;height:36px;border:1px solid var(--bd-glow);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--tx-muted);font-size:0.7rem;animation:bounceArrow 1.8s ease-in-out infinite;cursor:pointer}
