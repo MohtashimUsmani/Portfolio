@@ -6,8 +6,8 @@ import SectionTitle from '../components/SectionTitle';
 import './About.css';
 
 const STATS = [
-  { value:'3+',  label:'Years Experience' },
-  { value:'15+', label:'Projects Built'   },
+  { value:'2+',  label:'Years Experience' },
+  { value:'10+', label:'Projects Built'   },
   { value:'5+',  label:'ML Models'        },
   { value:'10+', label:'Tech Stack'        },
 ];
