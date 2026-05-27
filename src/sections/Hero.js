@@ -98,13 +98,7 @@ const Hero = () => {
           </div>
           <div className="hero__code-tag hero__code-tag--1"><code>import sklearn</code></div>
           <div className="hero__code-tag hero__code-tag--2"><code>npm run build</code></div>
-          <div className="hero__code-tag hero__code-tag--3"><code>django runserver</code></div>
-          <div className="hero__code-tag hero__code-tag--4"><code>import pandas as pd</code></div>
-          <div className="hero__code-tag hero__code-tag--5"><code>import numpy as np</code></div>
-          <div className="hero__code-tag hero__code-tag--6"><code>git commit -m first commit</code></div>
-          <div className="hero__code-tag hero__code-tag--7"><code>psql -U postgres</code></div>
-          <div className="hero__code-tag hero__code-tag--8"><code>mysql -u root -p</code></div>
-          <div className="hero__code-tag hero__code-tag--9"><code>mysql -u root -p</code></div>   
+          <div className="hero__code-tag hero__code-tag--3"><code>django runserver</code></div>  
         </motion.div>
       </div>
 
