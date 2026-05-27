@@ -60,7 +60,7 @@ const Hero = () => {
           <motion.div className="hero__role" variants={iV}>
             <span className="hero__role-prefix">&gt;_ </span>
             <TypeAnimation
-              sequence={['Data Scientist',1800,'Full Stack Developer',1800,'Python Developer',1800,'ML Engineer',1800]}
+              sequence={['Data Scientist',1800,'Full Stack Web Developer',1800,'Python Developer',1800,'ML Engineer',1800]}
               wrapper="span" speed={50} repeat={Infinity} className="hero__role-text"
             />
           </motion.div>
@@ -98,6 +98,11 @@ const Hero = () => {
           <div className="hero__code-tag hero__code-tag--1"><code>import sklearn</code></div>
           <div className="hero__code-tag hero__code-tag--2"><code>npm run build</code></div>
           <div className="hero__code-tag hero__code-tag--3"><code>django runserver</code></div>
+          <div className="hero__code-tag hero__code-tag--3"><code>import pandas as pd</code></div>
+          <div className="hero__code-tag hero__code-tag--3"><code>import numpy as np</code></div>
+          <div className="hero__code-tag hero__code-tag--3"><code>git commit -m "first commit</code></div>
+          <div className="hero__code-tag hero__code-tag--3"><code>psql -U postgres</code></div>
+          <div className="hero__code-tag hero__code-tag--3"><code>mysql -u root -p</code></div>  
         </motion.div>
       </div>
 
