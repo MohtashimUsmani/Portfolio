@@ -12,10 +12,10 @@ const TIMELINE = [
     desc:'Deep-dived into Python and the Django framework. Built REST APIs, worked with ORMs, implemented auth systems and deployed production apps.',
     tags:['Python','Django','REST API','PostgreSQL'], side:'right' },
   { year:'2023', icon:<FaServer />, title:'Built Full Stack Projects',  org:'Freelance & Personal',
-    desc:'Combined React frontend with Django backend to build complete full-stack applications including Hospital Management System.',
+    desc:'Combined React frontend with Django backend to build complete full stack applications including Customer Management System.',
     tags:['React','Django','Full Stack','Docker'], side:'left' },
   { year:'2024', icon:<FaBrain />,  title:'Entered Data Science & ML', org:'Data Engineering',
-    desc:'Transitioned into data science, mastering ML workflows, data pipelines, and building production-grade ML systems for fraud detection.',
+    desc:'Transitioned into data science, mastering ML workflows, data pipelines, and building production grade ML systems for fraud detection.',
     tags:['ML','Pandas','Scikit-learn','NumPy'], side:'right' },
 ];
 
