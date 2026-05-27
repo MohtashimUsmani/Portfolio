@@ -67,7 +67,7 @@ const Hero = () => {
           </motion.div>
 
           <motion.p className="hero__sub" variants={iV}>
-            I build intelligent systems and beautiful interfaces — turning data into decisions and ideas into products.
+            I build intelligent systems and beautiful interfaces turning data into decisions and ideas into products.
           </motion.p>
 
           <motion.div className="hero__actions" variants={iV}>
